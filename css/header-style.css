@@ -1,0 +1,78 @@
+header{
+    width: 1920px;
+    height: 219px;
+    /* background-image: url(head-back.png);     */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 8.5rem;
+    transition: all 1s;                  
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.logo>div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 0.2rem;
+}
+
+.big-logo-text{
+    font-size: 38px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    color: #300E44;
+}
+
+.small-logo-text{
+    font-size: 28px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    color: #300E44
+}
+
+.contacts{
+    display: flex;
+    flex-direction: column;
+}
+
+.tel-numb>span{
+    font-size: 32px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    color: #300E44;
+
+}
+
+.email{
+    font-size: 32px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    color: #300E44;
+}
+
+.email>span>a{
+    color: #300E44;
+    text-decoration: none;
+}
+
+.email>span>a:hover{
+    text-decoration: underline;
+}
+
+.social-networks{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.eye-button{
+    margin-left: 10rem;
+}

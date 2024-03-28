@@ -1,0 +1,47 @@
+.appeal{
+    width: 1681px;
+    height: 270px;
+    background-image: url(appeal-back.svg);
+    margin-top: 46px;
+    /* display: flex; */
+
+}
+
+.appeal>div{
+    display: flex;
+    flex-direction: column;
+    margin: 3rem 5rem;
+    gap: 1rem;
+}
+
+.appeal>div>h2{
+    font-size: 55px;
+    font-weight: bold;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+}
+
+.appeal>div>h4{
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+}
+
+.appeal>div>span{
+    color: #300E44;
+    background-color: #fff;
+    border-radius: 18px;
+    padding: 1rem;
+    width: 295px;
+    text-align: center;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+
+.appeal>div>span:active{
+    background-color: transparent;
+}

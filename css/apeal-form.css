@@ -1,0 +1,88 @@
+
+
+.appeal-form{
+    height: 1000px;
+    width: 1000px;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    border-radius: 30px;
+    background-color: #fff;
+    position: absolute;
+    top: 100px;
+}
+
+.appeal-form>h2{
+    color: #300E44;
+    font-size: 36px;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+}
+
+.appeal-form>form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    text-align: start !important;
+}
+
+.appeal-form>form>input{
+    width: 750px;
+    height: 60px;
+    border-radius: 18px;
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: #8141A7;
+    color: #747474;
+    font-size: 21px;
+    font-family: "Montserrat", sans-serif;
+    padding-left: 1rem;
+}
+
+.appeal-form>form>div{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.appeal-form>form>div>input{
+    width: 352px;
+    height: 60px;
+    border-radius: 18px;
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: #8141A7;
+    color: #747474;
+    font-size: 21px;
+    font-family: "Montserrat", sans-serif;
+    padding-left: 1rem;
+}
+
+.text-area{
+    height: 300px !important;
+    text-align: start !important;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+
+.text-area::placeholder{
+    text-align: flex-start;
+}
+
+.appeal-form input{
+    outline: none;
+}
+
+.submit-button{
+    background-color: #300E44;
+    border-style: none;
+    color: #fff !important;
+    font-size: 20px !important;
+    font-family: "Montserrat", sans-serif;
+
+}

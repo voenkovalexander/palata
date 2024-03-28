@@ -1,0 +1,127 @@
+.nav-panel{
+    width: 1920px;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-left: 0;
+    border-right: 0;
+    border-width: 0.5px;
+    border-color:rgba(48, 14, 68, 0.500);
+}
+
+.nav-panel>nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.nav-panel>nav>ul{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    height: 100%;
+}
+
+.dropdown{
+    position: relative;
+    list-style: none;
+    height: 100%;
+
+}
+
+.dropdown-menu{
+    display: flex;
+    width: 350px;
+    flex-direction: column;
+    position: absolute;
+    background-color: #ffffff;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.07);
+    z-index: 1;
+    list-style: none;
+    transform: rotateX(90deg);
+    transition: .3s ease-in-out;
+    transform-origin :0 0;
+    border-radius: 0 30px 30px 30px;
+    overflow: hidden;
+}
+
+.dropdown-menu>li{
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 550;
+    padding: 18px 26px;
+    color: #300E44;
+}
+
+.dropdown-menu>li>a{
+    text-decoration: none;
+
+}
+
+.dropdown-menu>li:hover{
+    background-color: #B68CCB;
+}
+
+.dropdown:hover .dropdown-menu{
+    transform: rotateX(0deg);
+}
+
+.dropdown>span{
+    display: flex;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    list-style: none;
+    color: #3D1257;
+    font-weight: bold;
+    cursor: pointer;
+    /* padding: 1rem; */
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+/* .nav-panel>nav>ul>li>input{
+    width: 330px;
+    height: 49px;
+    border-radius: 13px;
+    border-color:rgba(61, 18, 87, 0.240);
+    background-color: rgba(129, 65, 167, 0.400);
+} */
+
+.search{
+    border: 1px solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 330px;
+    height: 49px;
+    border-radius: 13px;
+    border-color:rgba(61, 18, 87, 0.240);
+    background-color: rgba(129, 65, 167, 0.400);
+    padding: 1rem;
+  }
+  .search>input{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 18px;
+  }
+
+  .search>input::placeholder{
+    color: rgba(48, 14, 68, 0.610);;
+  }
+
+  
